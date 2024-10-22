@@ -1,0 +1,25 @@
+*{
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+th,td{
+    width : 160px;
+    padding : 0;
+    text-align: left;
+}
+th{
+    border-bottom: 2px solid black;
+}
+td{
+    border-bottom : 1px solid rgba(109, 107, 104, 0.21);
+}
+th span{
+    background-color: rgba(109, 107, 104, 0.21);
+}
+
+.less_than_3{
+    background-color: yellow;
+}
+.equal_to_0{
+    background-color: red;
+}
