@@ -1,0 +1,58 @@
+.note_container{
+    background-color: rgb(255, 249, 241);
+    padding: 20px;
+    min-width: 200px;
+    max-width: 700px;
+    width: max-content;
+    height: max-content;
+}
+
+input{
+    width: calc(100%);
+    padding: 3px 0;
+    border-radius: 5px;
+
+    text-align: center;
+}
+
+input:focus, textarea:focus{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+textarea{
+    max-width: 100%;
+    width: calc(100%);
+    min-width: 200px;
+    border-radius: 5px;
+		border: 2px solid black;
+
+    padding: 5px;
+}
+
+input[type='submit']{
+    width: 100%;
+}
+
+.note{
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 138, 0.5);
+    border-radius: 10px;
+		width:	calc(100% - 20px);
+    padding: 5px 20px 10px 20px;
+    margin: 20px 10px;
+}
+
+.much{
+    background-color: rgba(255, 158, 158, 0.5);
+}
+
+.note h2, h3, h4, h5, h6{
+    display: inline-block;
+    text-align: center;
+}
+
+.note p{
+    display: block;
+    width: max-content;
+    height: min-content;
+}
