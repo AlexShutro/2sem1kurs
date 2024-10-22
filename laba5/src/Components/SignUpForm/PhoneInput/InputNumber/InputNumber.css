@@ -1,0 +1,10 @@
+.input{
+    border-radius: 5px;
+}
+.inputWrapper{
+    display: flex;
+    flex-direction: column;
+}
+#select{
+    width : 147px;
+}
