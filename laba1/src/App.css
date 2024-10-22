@@ -1,0 +1,15 @@
+
+.tab {
+  text-align: center;
+  border-collapse: collapse;
+}
+.tab td {
+  height: 70px;
+  width: 70px;
+}
+tr {
+  margin-right: 10px;
+}
+.letters td{
+  color:rgb(50, 31, 31);
+}
