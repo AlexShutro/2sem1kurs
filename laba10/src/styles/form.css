@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(8, 0, 72);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    border: 2px solid rgb(59, 114, 230);
+    box-shadow: -10px 11px 12px 4px rgba(196, 159, 121, 0.2);
+    margin: 10px auto;
+    padding: 20px;
+    height: 91vh;
+    width: 500px;
+    
+    background-color: rgb(1, 162, 255);
+    border-radius: 20px;
+}
+
+form{
+    margin: 10px 100px;
+}
+
+.select_country{
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 30%;
+    height: 25px;
+
+}
+
+.operators{
+    text-align: left;
+    margin: 0 40%;
+    width: 100px;
+}
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+
+    padding: 1px 5px;
+    margin: 2px 0;
+    border-radius: 10px;
+}
+
+input:focus , select:focus{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.radio{
+    margin: 2px 2px;
+    width: 25px;
+    display: inline;
+}
+
+label.radio{
+    position: relative;
+    top:-7px;
+}
+.phoneInput{
+    display: inline-block;
+    width: 70%;
+}
+
+input[type='submit']:enabled{
+    background-color: rgb(114, 255, 114);
+}
+
+input[type='submit']:disabled{
+    background-color: rgb(183, 0, 255);
+    color: white;
+}
+
+input[type='submit']:active{
+    background-color: rgb(61, 0, 118);
+}
+
+.password_alert{
+    color: red;
+}
