@@ -1,0 +1,9 @@
+﻿  lab3.1.cpp
+D:\ОАиП\lab3.1\lab3.1\lab3.1.cpp(28,10): error C3083: ranges: символ слева от "::" должен представлять тип
+D:\ОАиП\lab3.1\lab3.1\lab3.1.cpp(28,41): error C2672: "std::sort": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7312,19): message : может быть "void std::sort(const _RanIt,const _RanIt)"
+D:\ОАиП\lab3.1\lab3.1\lab3.1.cpp(28,18): message : void std::sort(const _RanIt,const _RanIt): требует аргументов: 2, имеется: 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7312): message : см. объявление "std::sort"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7304,19): message : или       "void std::sort(const _RanIt,const _RanIt,_Pr)"
+D:\ОАиП\lab3.1\lab3.1\lab3.1.cpp(28,18): message : void std::sort(const _RanIt,const _RanIt,_Pr): требует аргументов: 3, имеется: 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm(7304): message : см. объявление "std::sort"

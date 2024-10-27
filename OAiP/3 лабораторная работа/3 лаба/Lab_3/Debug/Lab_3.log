@@ -1,0 +1,28 @@
+﻿Сборка начата 15.03.2022 20:46:12.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Lab_3.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Lab_3.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Source.cpp(57,8): warning C4101: Output: неиспользованная локальная переменная
+     1>C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Source.cpp(11,8): warning C4101: ReadFile: неиспользованная локальная переменная
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Debug\Lab_3.exe" /INCREMENTAL /ILK:"Debug\Lab_3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Debug\Lab_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Debug\Lab_3.lib" /MACHINE:X86 Debug\Source.obj
+         Lab_3.vcxproj -> C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Debug\Lab_3.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Lab_3.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Lab_3.tlog\Lab_3.lastbuildstate".
+     1>Сборка проекта "C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Lab_3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Lab_3.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Source.cpp(57,8): warning C4101: Output: неиспользованная локальная переменная
+         C:\Users\Stanislaw\Desktop\ОАиП\3 лаба\Lab_3\Source.cpp(11,8): warning C4101: ReadFile: неиспользованная локальная переменная
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.70
