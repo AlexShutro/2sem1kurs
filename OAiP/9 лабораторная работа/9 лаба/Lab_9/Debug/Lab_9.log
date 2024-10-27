@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\ОАиП\9 лаба\Lab_9\Source.cpp(14,7): warning C4101: s: неиспользованная локальная переменная
+  Lab_9.vcxproj -> D:\ОАиП\9 лаба\Lab_9\Debug\Lab_9.exe
