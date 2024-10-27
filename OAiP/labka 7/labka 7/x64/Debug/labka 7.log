@@ -1,0 +1,4 @@
+﻿  labka 7.cpp
+D:\ОАиП\лабо7\лабо7\labka 7\labka 7\labka 7.cpp(314): warning C4715: OutQueue: значение возвращается не при всех путях выполнения
+D:\ОАиП\лабо7\лабо7\labka 7\labka 7\labka 7.cpp(339): warning C4715: Shift: значение возвращается не при всех путях выполнения
+  labka 7.vcxproj -> D:\ОАиП\лабо7\лабо7\labka 7\x64\Debug\labka 7.exe
